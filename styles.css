@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 0;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: black;
+}
+
+.container{
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.container:hover{
+    transform: scale(1.05);
+}
+
+h1{
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.advice-box{
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.category-select button{
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.category-select button:hover{
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    transform: scale(1.05);
+}
+
+.category-select button:active{
+    transform: scale(0.95);
+}
+
+#display-advice{
+    font-size: 1.5rem;
+    font-style: italic;
+}
